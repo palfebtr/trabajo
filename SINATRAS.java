@@ -156,6 +156,8 @@ public class SINATRAS {
 
         data.put("fields", tarea);
         
+        //Se vinculan a la tarea general el resto de tareas
+        
         if (padre != null && padre.length() > 0) {
             JSONObject padreTarea = new JSONObject(
                     "{ \"issuelinks\":[ { \"add\":{ \"type\":{ \"name\": \"Relacionar\", \"inward\": \"relacionat amb/relacionado con\", \"outward\": \"relacionat amb/relacionado con\" }, \"outwardIssue\":{ \"key\":\""
