@@ -49,6 +49,8 @@ public class SINATRAS {
     private static final int FILA_LISTA_99 = 99;
 
     private final Logger logger = Logger.getLogger(this.getClass());
+    
+    
 
     public void crearTareasJira(Connection con, Long idenvio, int fase, Lanza_Proceso proceso, Hashtable<String, Object> parametros)
     		throws Exception {
